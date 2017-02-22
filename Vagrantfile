@@ -14,7 +14,7 @@ end
 
 Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "RIOT VM - AKIS"
+    vb.name = "RIOT VM - AKIS17"
   end
-  config.vm.synced_folder ".", "/home/vagrant/AKIS"
+  config.vm.synced_folder ".", "/home/vagrant/AKIS17"
 end
