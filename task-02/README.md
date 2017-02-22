@@ -17,7 +17,7 @@ Damit der `xtimer` benutzt werden kann, müssen folgende zwei Änderungen vorgeo
       #include "xtimer.h"
       ```
 
-## Task 1.2: LED-Steuerung mit xtimer
+## Task 2.2: LED-Steuerung mit xtimer
 
 Die LEDs können nun periodisch mit niedrigerer Frequenz getoggled werden.
 Zum Testen können die Funktionen `xtimer_sleep()` oder `xtimer_usleep()` innerhalb
@@ -25,4 +25,4 @@ der Endlosschleife benutzt werden.
 
 Mit den LED Makros aus [Task 1](../task-01) kann nun eine simple Ampelsteuerung programmiert werden.
 
-[< Task 2](../task-02) | [Task 3 >](../task-03)
+[< Task 1](../task-01) | [Task 3 >](../task-03)
